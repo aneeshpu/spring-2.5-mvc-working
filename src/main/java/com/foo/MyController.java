@@ -9,10 +9,9 @@ public class MyController {
 
 	@RequestMapping("/helloWorld")
 	public ModelAndView helloWorld(){
-		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("helloWorld");
-		modelAndView.addObject("message", "Hello World!");
+		modelAndView.addObject("message", "yay ya ya yyyaa!");
 		return modelAndView;
 	}
 }
