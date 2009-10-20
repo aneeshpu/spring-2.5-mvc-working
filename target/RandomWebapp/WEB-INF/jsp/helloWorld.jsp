@@ -1,6 +1,12 @@
+<%@page import="com.foo.MyController"%>
+<%@page import="com.foo.MyModel"%>
 <html>
 <body>
-	yes yes yes
-	<%=request.getAttribute("message")%>
+	<%
+		MyModel model = (MyModel)request.getAttribute("message");
+	%>
+	framework:<%=model.getName()%>
+	<br/>
+	version:<%=model.getVersion()%>
 </body>
 </html>

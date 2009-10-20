@@ -11,7 +11,11 @@ public class MyController {
 	public ModelAndView helloWorld(){
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("helloWorld");
-		modelAndView.addObject("message", "yay ya ya yyyaa!");
+		MyModel myModel = new MyModel();
+		myModel.setName("Spring");
+		myModel.setVersion("2.5");
+		
+		modelAndView.addObject("message", myModel);
 		return modelAndView;
 	}
 }

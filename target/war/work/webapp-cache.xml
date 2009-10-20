@@ -8,6 +8,7 @@
           <string>WEB-INF/randomDispatcher-servlet.xml</string>
           <string>WEB-INF/jsp/helloWorld.jsp</string>
           <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/com/foo/MyModel.class</string>
           <string>WEB-INF/classes/com/foo/MyController.class</string>
           <string>WEB-INF/classes/com/foo/MyServlet.class</string>
           <string>WEB-INF/lib/spring-core-2.5.jar</string>
